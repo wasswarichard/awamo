@@ -3,3 +3,34 @@
     src: url('fonts/Montserrat/Montserrat-Medium.ttf');
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+   background-color:palegoldenrod;
+}
+#form{
+  background-color: lavender;
+  columns: 100%;
+}
+#awamo {
+  font-family: Montserrat;
+    src: url('fonts/Montserrat/Montserrat-Medium.ttf');
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#awamo td, #awamo th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#awamo tr:nth-child(even){background-color: #f2f2f2;}
+
+#awamo tr:hover {background-color: #ddd;}
+
+#awamo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lavender;
+  
+}
